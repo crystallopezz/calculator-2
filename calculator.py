@@ -12,4 +12,6 @@ while True:
         if tokenized_equation[0] == "+":
             print(add(float(tokenized_equation[1]),float(tokenized_equation[2])))
             break
-            
+        if tokenized_equation[0] == "-":
+            print(subtract(float(tokenized_equation[1]),float(tokenized_equation[2])))
+            break
