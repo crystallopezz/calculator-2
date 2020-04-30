@@ -30,3 +30,6 @@ while True:
         if tokenized_equation[0] == "pow":
             print(power(float(tokenized_equation[1]),float(tokenized_equation[2])))
             continue
+        if tokenized_equation[0] == "mod":
+            print(mod(float(tokenized_equation[1]),float(tokenized_equation[2])))
+            continue
