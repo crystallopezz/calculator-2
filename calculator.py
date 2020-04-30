@@ -21,3 +21,6 @@ while True:
         if tokenized_equation[0] == "/":
             print(divide(float(tokenized_equation[1]),float(tokenized_equation[2])))
             continue
+        if tokenized_equation[0] == "square":
+            print(square(float(tokenized_equation[1])))
+            continue
