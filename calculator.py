@@ -24,3 +24,6 @@ while True:
         if tokenized_equation[0] == "square":
             print(square(float(tokenized_equation[1])))
             continue
+        if tokenized_equation[0] == "cube":
+            print(cube(float(tokenized_equation[1])))
+            continue
