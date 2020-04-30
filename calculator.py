@@ -11,25 +11,17 @@ while True:
     else:
         if tokenized_equation[0] == "+":
             print(add(float(tokenized_equation[1]),float(tokenized_equation[2])))
-            continue
         if tokenized_equation[0] == "-":
             print(subtract(float(tokenized_equation[1]),float(tokenized_equation[2])))
-            continue
         if tokenized_equation[0] == "*":
             print(multiply(float(tokenized_equation[1]),float(tokenized_equation[2])))
-            continue
         if tokenized_equation[0] == "/":
             print(divide(float(tokenized_equation[1]),float(tokenized_equation[2])))
-            continue
         if tokenized_equation[0] == "square":
             print(square(float(tokenized_equation[1])))
-            continue
         if tokenized_equation[0] == "cube":
             print(cube(float(tokenized_equation[1])))
-            continue
         if tokenized_equation[0] == "pow":
             print(power(float(tokenized_equation[1]),float(tokenized_equation[2])))
-            continue
         if tokenized_equation[0] == "mod":
             print(mod(float(tokenized_equation[1]),float(tokenized_equation[2])))
-            continue
